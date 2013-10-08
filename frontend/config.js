@@ -32,6 +32,12 @@ exports.config = {
                     switch(path) {
                         case 'vendor/scripts/brunch-JavaScriptCompiler-auto-reload.js': // auto reload script injected by brunch
                         case 'vendor/console-polyfill/index.js':
+                        
+                        // require.js
+                        case 'vendor/requirejs/require.js':
+
+                        // prelude-ls
+                        case 'vendor/prelude-ls/browser/prelude-browser.js':
 
                         // jquery
                         case 'vendor/jquery/jquery.js':
@@ -41,6 +47,7 @@ exports.config = {
                         case 'vendor/angular-resource/angular-resource.js':
                         case 'vendor/angular-cookies/angular-cookies.js':
                         case 'vendor/angular-ui-router/release/angular-ui-router.js':
+
 
                         // bootstrap
                         case 'vendor/bootstrap/dist/js/bootstrap.js':

@@ -10,6 +10,8 @@
     "angular": ">=1.1.0",
     "jquery": ">=2.0.0",
     "modernizr": "~2.6.2",
+    "prelude-ls": ">=1.0.3",
+    "requirejs": "2.1.8",
     
     "bootstrap": "~3.0.0"
   }
